@@ -622,8 +622,16 @@ a {
 }
 
 .footer .social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 28px;
     height: 28px;
+}
+
+.footer .social-link:hover {
+    background-color: #c2c2c2;
+    cursor: pointer;
 }
 
 .footer .row-bottom {
