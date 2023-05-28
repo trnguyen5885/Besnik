@@ -63,7 +63,7 @@ a {
 .hero-header {
     position: relative;
     background-color: #e6f0ff;
-    height: 100vh;
+    height: calc(100vh - 90px);
     display: flex;
     flex-direction: column;
 }
